@@ -1,0 +1,5 @@
+{
+    "techniques": [
+        {"title":"One-candidate cell", "text":"If a specific cell can only contain 1 number, then that number can be placed. This happens whenever all the other numbers exists in either the current row, column or block.","image":"mosaic-t1.png"}
+    ]
+}

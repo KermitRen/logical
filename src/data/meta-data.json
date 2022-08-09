@@ -1,0 +1,24 @@
+{
+    "meta": [{"name": "mosaic", "description": "A Mosaic puzzle is a binary logic puzzle. Each puzzle starts off as a mostly empty grid, except for a few numbered clues. The goal is then to use these clues to fill in the correct cells, which creates a pattern resembling mosaic.",
+              "rules": ["Each cell is either black or white. You can left click to mark black cells and right click to mark white cells.",
+              "A numbered cell indicates how many black cells there are among the neighboring cells (horizontally, vertically and diagonally) including the numbered cell itself.",
+              "A numbered cell tells information about at most 9 cells, and can therefore contain the digits 0-9.",
+              "Each puzzle has one unique solution."]},
+            {"name": "nurikabe", "description": "A Nurikabe is a binary determination puzzle, where the goal is to seperate small islands with one long river. The name Nurikabe comes from Japanese folklore, where it is a spirit that manifests as an invisible wall - blocking passage for unsuspecting travellers.",
+              "rules": ["Each cell is either land or water. You only need to click on the water, but you can right-click to mark land.",
+                        "Each numbered cell indicates a single island and the number specifies how many contiguous cells make up that island (How big it is).",
+                        "Contiguous means horizontally or vertically adjacent, but not diagonally. Seperate islands are therefore allowed to be diagonally adjacent.",
+                        "All water cells form one contiguous stream. No 2x2 blocks of water are allowed to exist (Pools), as the water is supposed to form a stream",
+                        "Each puzzle has one unique solution."]},
+            {"name": "sudoku", "description": "The Sudoku puzzle is probably the most popular logic puzzle and is very often found in newspapers and magazines. A Sudoku is a logic-based combinatorial number-placement puzzle. The goal is to fill a 9x9 grid with the digits 1 - 9, such that no row, column or box has any duplicate digits.",
+            "rules": ["Each cell must contain one of the digits from 1 to 9. The clues given at the beginning can't be changed.",
+                      "Each row, column and box contains exactly the digits 1 to 9, without repetition.",
+                      "Each puzzle has one unique solution."]},
+            {"name": "nonogram", "description": "A Nonogram is a popular type of binary logic puzzle, which is sometimes also called a Hanjie or Picross. The goal is to color some of the cells, until you have exposed the hidden picture underneath. There also exist a colored variant",
+            "rules": ["Each cell is either colored or blank. You only need to click on the colored cells, but you can right click to mark blank cells.",
+                      "Each column and row has an associated clue, which is an ordered list of numbers.",
+                      "Each number represents a block of continuous colored squares in the corresponding row or column",
+                      "Rows or columns, which clues have more than one number must have at least one blank square between each set of continuous colored squares.",
+                      "Each puzzle has one unique solution."]}
+    ]
+}

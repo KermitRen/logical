@@ -1,0 +1,8 @@
+{
+    "techniques": [
+        {"title":"Single cell island", "text":"If a 1-cell island is present, all horizontally and vertically adjacent squares must be water. Otherwise, the island would be too big.","image":"nurikabe-t1.png"},
+        {"title":"Seperating islands", "text":"If two numbered cells are seperated by 1 cell either horizontally or vertically, then this cell must be water. Otherwise, it would be one big island.","image":"nurikabe-t2.png"},
+        {"title":"Seperating islands II", "text":"If two numbered cells are diagonally adjacent, then the two remaining cells in that 2x2 square must be water. Otherwise, it would be one big island.","image":"nurikabe-t3.png"},
+        {"title":"Water Expansion", "text":"When two numbered cells are seperated by 1 cell of water along an edge, the water can be expanded outwards by 1 cell. Otherwise, that cell of water would have been cut of from the stream.","image":"nurikabe-t4.png"}
+    ]
+}

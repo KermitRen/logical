@@ -1,0 +1,8 @@
+{
+    "techniques": [
+        {"title":"The 9 cell", "text":"If a 9-cell is present, then all adjacent cells must be colored black.","image":"mosaic-t1.png"},
+        {"title":"The 0 cell", "text":"If a 0-cell is present, then all adjacent cells must be colored white.","image":"mosaic-t2.png"},
+        {"title":"Corner 4", "text": "If a 4-cell is in one of the corners, then all 4 adjacent cells must be colored black.", "image":"mosaic-t3.png"},
+        {"title":"Wall 6", "text": "If a 6-cell is adjacent to one of the walls, then all 6 adjacent cells must be colored black.", "image":"mosaic-t4.png"}
+    ]
+}
